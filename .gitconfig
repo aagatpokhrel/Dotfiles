@@ -1,0 +1,33 @@
+[init]
+  defaultBranch = main
+
+[user]
+  name = aagat
+  email = aagat@machine.com
+
+[alias]
+  lg = log --oneline --graph --decorate
+  l = log --oneline
+  st = status
+  br = branch
+  a = add --all
+  sb = status -s -b
+  
+[color "branch"]
+	current = yellow bold
+	local = green bold
+  remote = cyan bold
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+  whitespace = red reverse
+
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+
+
