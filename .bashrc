@@ -63,8 +63,6 @@ alias pip=pip3
 alias py=python3
 alias python=python3
 alias vi=vim
-alias vi=nvim
-alias vim=nvim
 #########
 #SPECIAL FUNCTIONS
 ########
